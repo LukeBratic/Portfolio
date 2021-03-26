@@ -3,7 +3,6 @@ Portfolio Website Choices
     Font Choice
         I chose to use Montserrat as my font choice because it is an extremely easy to read font. I do not want people to struggle when reading the text on my site but I also did 
         not want an extremely "basic" text such as Arial. So, I felt Montserrat was a solid choice.
-
     Color Palette
         I used the Real Madrid soccer team's color palette as inspiration. I've always like their palette and felt it matches up with my personality well. I felt the gold color 
         they use is a fantastic statement color to use throughout my site.
