@@ -26,6 +26,7 @@ Portfolio Website Choices
         where everything fits in place well.
 
 Final Thoughts
+
     I had to create a portfolio for a previous web development course and I was not a fan of the website I created. I used that experience to create a better website this time 
     around. I am extremely satisfied with this site and I will continue to improve it. One way I will improve it is through adding media queries in order to make a responsive 
     website. As well, I will be adding javascript so my website has more interactivity.
