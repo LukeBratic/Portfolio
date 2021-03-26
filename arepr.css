@@ -1,0 +1,94 @@
+#content {
+    padding-top: 150px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2.2em;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+#content li {
+    padding-top: 0.7rem;
+}
+
+#title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#arepr {
+    border: 2px solid black;
+}
+
+#study-section {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2.2em;
+    align-items: center;
+}
+
+.heading {
+    padding-bottom: 0.5em;
+}
+
+.sub-heading {
+    padding-top: 0.3em;
+}
+
+#study-section h4 {
+    padding-top: 0.3em;
+}
+
+#study-section img {
+    padding-top: 0.7em;
+}
+
+#work-description li {
+    padding-top: 3rem;;
+}
+
+#audience-analysis {
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2.2em;
+    align-items: center;
+}
+
+#facebook {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3em;
+    justify-items: center;
+}
+
+#facebook img {
+    border: 2px solid black;
+}
+
+#twitter {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3em;
+    justify-items: center;
+}
+
+#existing-presence {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3em;
+    justify-items: center;
+}
+
+#existing-presence img {
+    border: 2px solid black;
+    width: 600px;
+}
+
+#end-result-grid {
+    display: grid;
+    grid-template-rows: auto;
+}
+

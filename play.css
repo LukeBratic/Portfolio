@@ -1,0 +1,40 @@
+#content {
+    padding-top: 150px;
+}
+
+#title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#content img {
+    margin-top: 100px;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#hobbies {
+    padding-top: 100px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 2.2em;
+}
+
+#hobbies p {
+    font-size: 1.5rem;
+    padding-top: 0.3em;
+}
+
+#hobbies h3 {
+    padding-top: 0.3em;
+}
