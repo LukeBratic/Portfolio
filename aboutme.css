@@ -1,69 +1,222 @@
-#content {
-    padding-top: 150px;
+@media screen and (min-width: 1024px) {
+    #content {
+        padding-top: 150px;
+    }
+    
+    #title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #content-sections {
+        padding-top:80px;
+        display: grid;
+        grid-template-rows: auto;
+        grid-row-gap: 2.2em;
+    }
+    
+    #content-sections h1 {
+        font-size: 2.1rem;
+    }
+    
+    #content-sections p {
+        font-size: 1rem;
+        padding-top: 0.3em;
+    }
+    
+    .section-title {
+        padding-bottom: 3px;
+    }
+    
+    .sub-title {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    
+    .section {
+        display: grid;
+        grid-template-rows: auto;
+    }
+    
+    #school-section_top {
+        display: grid;
+        grid-template-columns: 16.1fr 1fr;
+    }
+    
+    .description {
+        padding-top: 0.2em;
+    }
+    
+    .work-section_top-first {
+        display: grid;
+        grid-template-columns: 4.15fr 1fr;
+    }
+    
+    .work-section_top-second {
+        display: grid;
+        grid-template-columns: 5.8fr 1fr;
+    }
+    
+    #work-section_padding {
+        padding-top: 2em;
+    }
+    
+    #resume-button {
+        background-color: #d0c8a1;
+        padding: 1em;
+        width: 16em;
+        border: 2px solid black;
+        text-align: center;
+    }
 }
 
-#title {
-    font-size: 2rem;
-    text-align: center;
+@media screen and (min-width: 701px) and (max-width: 1023px) {
+    #content {
+        padding-top: 150px;
+    }
+    
+    #title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #content-sections {
+        padding-top:80px;
+        display: grid;
+        grid-template-rows: auto;
+        grid-row-gap: 2.2em;
+    }
+    
+    #content-sections h1 {
+        font-size: 2.1rem;
+    }
+    
+    #content-sections p {
+        font-size: 1rem;
+        padding-top: 0.3em;
+    }
+    
+    .section-title {
+        padding-bottom: 3px;
+    }
+    
+    .sub-title {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    
+    .section {
+        display: grid;
+        grid-template-rows: auto;
+    }
+    
+    #school-section_top {
+        display: grid;
+        grid-template-columns: 16.1fr 1fr;
+    }
+    
+    .description {
+        padding-top: 0.2em;
+    }
+    
+    .work-section_top-first {
+        display: grid;
+        grid-template-columns: 4.15fr 1fr;
+    }
+    
+    .work-section_top-second {
+        display: grid;
+        grid-template-columns: 5.8fr 1fr;
+    }
+    
+    #work-section_padding {
+        padding-top: 2em;
+    }
+    
+    #resume-button {
+        background-color: #d0c8a1;
+        padding: 1em;
+        width: 16em;
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    #icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-columns: auto;
+        grid-gap: 3em;
+      }
 }
 
-#content-sections {
-    padding-top:80px;
-    display: grid;
-    grid-template-rows: auto;
-    grid-row-gap: 2.2em;
-}
-
-#content-sections h1 {
-    font-size: 2.1rem;
-}
-
-#content-sections p {
-    font-size: 1rem;
-    padding-top: 0.3em;
-}
-
-.section-title {
-    padding-bottom: 3px;
-}
-
-.sub-title {
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-.section {
-    display: grid;
-    grid-template-rows: auto;
-}
-
-#school-section_top {
-    display: grid;
-    grid-template-columns: 16.1fr 1fr;
-}
-
-.description {
-    padding-top: 0.2em;
-}
-
-.work-section_top-first {
-    display: grid;
-    grid-template-columns: 4.15fr 1fr;
-}
-
-.work-section_top-second {
-    display: grid;
-    grid-template-columns: 5.8fr 1fr;
-}
-
-#work-section_padding {
-    padding-top: 2em;
-}
-
-#resume-button {
-    background-color: #d0c8a1;
-    padding: 1em;
-    width: 16em;
-    border: 2px solid black;
-    text-align: center;
+@media screen and (max-width: 700px) {
+    #content {
+        padding-top: 150px;
+    }
+    
+    #title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    #content-sections {
+        padding-top:80px;
+        display: grid;
+        grid-template-rows: auto;
+        grid-row-gap: 2.2em;
+    }
+    
+    #content-sections h1 {
+        font-size: 1.8rem;
+    }
+    
+    #content-sections p {
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        padding-bottom: 3px;
+    }
+    
+    .sub-title {
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    
+    .section {
+        display: grid;
+        grid-template-rows: auto;
+    }
+    
+    #school-section_top {
+        display: grid;
+        grid-template-columns: 16.1fr 1fr;
+    }
+    
+    .description {
+        padding-top: 0.2em;
+    }
+    
+    .work-section_top-first {
+        display: grid;
+        grid-template-columns: 4.15fr 1fr;
+    }
+    
+    .work-section_top-second {
+        display: grid;
+        grid-template-columns: 5.8fr 1fr;
+    }
+    
+    #work-section_padding {
+        padding-top: 2em;
+    }
+    
+    #resume-button {
+        background-color: #d0c8a1;
+        padding: 1em;
+        width: 16em;
+        border: 2px solid black;
+        text-align: center;
+        margin: 0 auto;
+    }
 }

@@ -4,6 +4,21 @@
         <title>Luke Bratic</title>
         <link rel="stylesheet" href="shared.css">
         <link rel="stylesheet" href="main.css">
+
+        <script>
+            var i = 0;
+            var txt = 'A User Experience Designer and Researcher who is currently looking for an internship in UX or a related field.';
+            var speed = 40;
+
+            function typeWriter() {
+                if (i < txt.length) {
+                    document.getElementById("introduction-description").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+            window.onload = typeWriter;
+        </script>
     </head>
 
     <body>
@@ -32,7 +47,7 @@
                     </div>
                     <div id="introduction-paragraph">
                         <h1>Hello there! <br> I'm <span class="gold">Luke.</span></h1>
-                        <p>A User Experience Designer and Researcher who is currently looking for an internship in UX or a related field.</p>
+                        <p id="introduction-description"></p>
                     </div>
                 </div>
                 <div id="case-studies">
@@ -66,7 +81,7 @@
                     <p>Feel free to email me or connect through LinkedIn.</p>
                 </div>
                 <div id="icons">
-                    <a href="https://linkedin.com/in/luke-bratic-46a5aa20a"><img src="images/linked-in.svg"></a>
+                    <a href="https://linkedin.com/in/luke-bratic-46a5aa20a" target="_blank"><img src="images/linked-in.svg"></a>
                     <a href="mailto: braticlu@msu.edu" target="_blank"><img src="images/email-icon.svg"></a>
                 </div>
                 <div id="copyright">

@@ -1,70 +1,198 @@
-#content {
-    padding-top: 150px;
-    display: grid;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-    font-size: 1.3rem;
+@media screen and (min-width: 1024px) {
+    #content {
+        padding-top: 150px;
+        display: grid;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+    
+    #content img {
+        border: 2px solid black;
+    }
+    
+    #content li {
+        padding-top: 0.7rem;
+    }
+    
+    #title {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #study-section {
+        display: grid;
+        grid-template-rows: auto;
+        grid-row-gap: 2.2em;
+        align-items: center;
+    }
+    
+    .heading {
+        padding-bottom: 0.5em;
+    }
+    
+    .sub-heading {
+        padding-top: 0.3em;
+    }
+    
+    #study-section h4 {
+        padding-top: 0.3em;
+    }
+    
+    #study-section img {
+        padding-top: 0.7em;
+    }
+    
+    #work-description li {
+        padding-top: 3rem;;
+    }
+    
+    #content img {
+        margin-top: 1rem;
+    }
+    
+    #work-img {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #end-result_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #end-result_grid img {
+        width: 40rem;
+        height: 20rem;
+    }
 }
 
-#content img {
-    border: 2px solid black;
+@media screen and (min-width: 901px) and (max-width: 1023px) {
+    #content {
+        padding-top: 100px;
+        font-size: 1.3rem;
+    }
+    
+    #content img {
+        border: 2px solid black;
+    }
+    
+    #content li {
+        padding-top: 0.7rem;
+    }
+    
+    #title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    #study-section {
+        align-items: center;
+    }
+    
+    .heading {
+        padding-bottom: 0.5em;
+    }
+    
+    .sub-heading {
+        padding-top: 0.3em;
+    }
+    
+    #study-section h4 {
+        padding-top: 0.3em;
+    }
+    
+    #study-section img {
+        padding-top: 0.7em;
+    }
+    
+    #work-description li {
+        padding-top: 3rem;;
+    }
+    
+    #content img {
+        margin-top: 1rem;
+        width: 70vw;
+    }
+    
+    #work-img {
+        width: 70vw;
+        align-items: center;
+    }
+    
+    #end-result_grid {
+        align-items: center;
+    }
+    
+    #end-result_grid img {
+        width: 70vw;
+        height: 20rem;
+    }
 }
 
-#content li {
-    padding-top: 0.7rem;
-}
-
-#title {
-    font-size: 2rem;
-    text-align: center;
-}
-
-#study-section {
-    display: grid;
-    grid-template-rows: auto;
-    grid-row-gap: 2.2em;
-    align-items: center;
-}
-
-.heading {
-    padding-bottom: 0.5em;
-}
-
-.sub-heading {
-    padding-top: 0.3em;
-}
-
-#study-section h4 {
-    padding-top: 0.3em;
-}
-
-#study-section img {
-    padding-top: 0.7em;
-}
-
-#work-description li {
-    padding-top: 3rem;;
-}
-
-#content img {
-    margin-top: 1rem;
-}
-
-#work-img {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-#end-result_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-}
-
-#end-result_grid img {
-    width: 40rem;
-    height: 20rem;
+@media screen and (max-width: 900px) {
+    #content {
+        padding-top: 100px;
+        font-size: 1.3rem;
+    }
+    
+    #content img {
+        border: 2px solid black;
+    }
+    
+    #content li {
+        padding-top: 0.7rem;
+    }
+    
+    #title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    #study-section {
+        align-items: center;
+    }
+    
+    .heading {
+        padding-bottom: 0.5em;
+    }
+    
+    .sub-heading {
+        padding-top: 0.3em;
+    }
+    
+    #study-section h4 {
+        padding-top: 0.3em;
+    }
+    
+    #study-section img {
+        padding-top: 0.7em;
+    }
+    
+    #work-description li {
+        padding-top: 3rem;;
+    }
+    
+    #content img {
+        margin-top: 1rem;
+        width: 90vw;
+    }
+    
+    #work-img {
+        width: 90vw;
+        align-items: center;
+    }
+    
+    #end-result_grid {
+        align-items: center;
+    }
+    
+    #end-result_grid img {
+        width: 90vw;
+        height: 20rem;
+    }
 }
