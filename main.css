@@ -47,7 +47,7 @@
   }
   
   #case-study-one {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1.4rem;
     background-color: #499ADB;
     display: grid;
@@ -59,21 +59,9 @@
   }
   
   #case-study-two {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1.4rem;
     background-color: #d0c8a1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: auto;
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-  }
-  
-  #case-study-three {
-    border: 1px solid black;
-    border-radius: 1.4rem;
-    background-color: #D1635C;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: auto;
@@ -109,7 +97,7 @@
   }
   
   #picture-selfie {
-    border: 1px solid #444c4c;
+    border: 2px solid #444c4c;
     box-shadow: 12px 12px rgba(0, 0, 0, .2);
   }
   
@@ -146,7 +134,7 @@
   }
   
   #case-study-one {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1.4rem;
     background-color: #3268a8;
     display: grid;
@@ -158,21 +146,9 @@
   }
   
   #case-study-two {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1.4rem;
     background-color: #d0c8a1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: auto;
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-  }
-  
-  #case-study-three {
-    border: 1px solid black;
-    border-radius: 1.4rem;
-    background-color: #D1635C;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: auto;
@@ -214,7 +190,7 @@
   }
   
   #picture-selfie {
-    border: 1px solid #444c4c;
+    border: 2px solid #444c4c;
     box-shadow: 12px 12px rgba(0, 0, 0, .2);
   }
   
@@ -251,7 +227,7 @@
   }
   
   #case-study-one {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1.4rem;
     background-color: #3268a8;
     display: grid;
@@ -263,21 +239,9 @@
   }
   
   #case-study-two {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 1.4rem;
     background-color: #d0c8a1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: auto;
-    align-items: center;
-    text-align: center;
-    justify-items: center;
-  }
-  
-  #case-study-three {
-    border: 1px solid black;
-    border-radius: 1.4rem;
-    background-color: #D1635C;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: auto;
